@@ -1,0 +1,26 @@
+{
+  "name": "spacex-graphql",
+  "version": "1.0.0",
+  "description": "A simple app that list SpaceX missions",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BlessingSanusi/spacex-graphql.git"
+  },
+  "author": "Blessing Sanusi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BlessingSanusi/spacex-graphql/issues"
+  },
+  "homepage": "https://github.com/BlessingSanusi/spacex-graphql#readme",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "express": "^4.17.1",
+    "express-graphql": "^0.9.0",
+    "graphql": "^14.5.8"
+  }
+}
